@@ -1,6 +1,8 @@
 # stabilizing_statistics_bootstrap
 R code for the simulation study and data analysis portions of "Bootstrapping Persistent Betti Numbers and other Stabilizing Statistics".
 
+[![DOI](https://zenodo.org/badge/344289905.svg)](https://zenodo.org/badge/latestdoi/344289905)
+
 **A makefile is included for convenience. Options are:**
 
 make all
