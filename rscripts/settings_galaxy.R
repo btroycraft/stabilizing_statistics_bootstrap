@@ -1,0 +1,4 @@
+NUM_CORES <- 1
+
+COVERAGE <- .98
+NUM_REPS_BOOT <- 10^5
