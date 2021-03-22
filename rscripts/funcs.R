@@ -34,4 +34,4 @@ RIPSER <- function(X, t, q){
 
 SUB.DIAG <- function(diag, q) subset(diag[, c('birth', 'death')], diag[, 'dim'] == q)
 
-PBETTI <- function(diag, r, s, q) sum(diag$dim == q & diag$birth <= r & diag$death > s)
+PBETTI <- function(diag, r, s = r, q = 1) sum(diag$dim == q & diag$birth <= r & diag$death > s)
