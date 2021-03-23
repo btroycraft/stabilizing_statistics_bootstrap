@@ -24,7 +24,7 @@ BW.ADAPT <- function(X, bw_pilot){
   return( bw_pilot*exp(-.5*(log_pilot - mean(log_pilot))) )
 }
 
-RIPSER <- function(X, t, q){
+RIPSER <- function(X, t = Inf, q = 1){
   
   diag <- as.data.frame(ripserr::vietoris_rips(X, q, t))
   colnames(diag) <- c('dim', 'birth', 'death')
